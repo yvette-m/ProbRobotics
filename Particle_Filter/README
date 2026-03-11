@@ -1,0 +1,30 @@
+Probabilistic Robotics
+CS141
+HW2
+Yvette Roos
+README
+
+I'm running windows - wsl
+I wrote in python
+
+Commands I ran:
+1. source venv/bin/activate
+2. pip install numpy opencv-python
+3. python particlefilter.py
+
+Opencv and numpy are required to run my Particle Filter simulation.
+Currently running the script allows for pressing any key or 'enter' to
+move the simulation to the next time step.
+
+The current file that is tested is 'BayMap.png'. To change this edit
+line 205 in particlefilter.py to use another map / image.
+Line 205:
+    parser.add_argument('--map',        default='BayMap.png')
+
+I also ran the simulation on images not included in the hw spec.
+
+
+1. python evaluate.py
+
+This is what I used to perform and generate my tables for my 
+experiments.
